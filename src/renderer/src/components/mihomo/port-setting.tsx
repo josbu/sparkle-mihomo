@@ -22,8 +22,8 @@ const PortSetting: React.FC = () => {
     'lan-allowed-ips': lanAllowedIps = [],
     'lan-disallowed-ips': lanDisallowedIps = [],
     'mixed-port': mixedPort = 7890,
-    'socks-port': socksPort = 7891,
-    port: httpPort = 7892,
+    'socks-port': socksPort = 0,
+    port: httpPort = 0,
     'redir-port': redirPort = 0,
     'tproxy-port': tproxyPort = 0
   } = controledMihomoConfig || {}

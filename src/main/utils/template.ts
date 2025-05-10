@@ -47,8 +47,8 @@ export const defaultControledMihomoConfig: Partial<IMihomoConfig> = {
   ipv6: true,
   mode: 'rule',
   'mixed-port': 7890,
-  'socks-port': 7891,
-  port: 7892,
+  'socks-port': 0,
+  port: 0,
   'redir-port': 0,
   'tproxy-port': 0,
   'allow-lan': false,
@@ -82,7 +82,7 @@ export const defaultControledMihomoConfig: Partial<IMihomoConfig> = {
     'use-system-hosts': false,
     'default-nameserver': ['tls://223.5.5.5'],
     nameserver: ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query'],
-    'proxy-server-nameserver': ['https://doh.pub/dns-query', 'https://dns.alidns.com/dns-query'],
+    'proxy-server-nameserver': [],
     'direct-nameserver': []
   },
   sniffer: {
